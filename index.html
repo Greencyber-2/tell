@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <title>ورود به تلگرام</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>ورود به حساب تلگرام</h1>
+
+    <div id="phoneSection">
+      <input type="text" id="phone" placeholder="شماره تلفن با کد کشور +98..." />
+      <button id="sendPhoneBtn">ارسال شماره</button>
+    </div>
+
+    <div id="codeSection" style="display:none;">
+      <input type="text" id="code" placeholder="کد تایید" />
+      <button id="sendCodeBtn">ارسال کد</button>
+    </div>
+
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
